@@ -21,10 +21,9 @@ void Start()
        //Ajusta as Skill para o tipo de consumo definido para a arvore
        this.arvoreHabilidades.AjustarConsumoArvore();
 
-```
 
-       ![alt text](https://github.com/ArturSouz/ArvoreHabilidade/master/1.png?raw=true)
-```c#
+
+       ![My Image](1.png)
 
 
 
