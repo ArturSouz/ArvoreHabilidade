@@ -54,6 +54,10 @@ void Start()
 
 
 
+```
+![2](https://user-images.githubusercontent.com/92062346/190831443-bdf978ae-1e8b-4450-81ea-4a2667ddd651.png)
+    
+```c#
 
 
 
@@ -79,14 +83,20 @@ void Start()
 
        this.arvoreHabilidades.CriarRamo(habilidades2, false, pontuacaoInicial: 1);
 
-       Skill hablidadeJaCriada = this.arvoreHabilidades.ObterHabilidadeNome("B3");
-       Skill habNova = new Skill(5, "B1");
+       Skill hablidadeJaCriada = this.arvoreHabilidades.ObterHabilidadeNome("B1");
+       Skill habNova = new Skill(5, "B3");
        hablidadeJaCriada.InserirPosteior(habNova);
 
 
 
 
 
+```
+     
+![3](https://user-images.githubusercontent.com/92062346/190831362-d1e74be1-80bf-4222-acd6-3d0a990a8410.png)
+
+
+```c#
 
 
 
