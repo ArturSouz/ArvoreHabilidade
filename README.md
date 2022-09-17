@@ -80,7 +80,6 @@ void Start()
        habilidades2.Add("B");
        habilidades2.Add("B1");
        habilidades2.Add("B2");
-
        this.arvoreHabilidades.CriarRamo(habilidades2, false, pontuacaoInicial: 1);
 
        Skill hablidadeJaCriada = this.arvoreHabilidades.ObterHabilidadeNome("B1");
